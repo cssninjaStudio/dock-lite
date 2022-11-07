@@ -1,7 +1,7 @@
 .ecommerce-dashboard {
   .dashboard-tiles {
     .dashboard-tile {
-      @include altitudeCard();
+      @include dockCard();
 
       position: relative;
       display: flex;
@@ -73,7 +73,7 @@
 
   .dashboard-charts {
     .dashboard-chart {
-      @include altitudeCard();
+      @include dockCard();
 
       padding: 2rem;
 
