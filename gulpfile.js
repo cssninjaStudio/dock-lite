@@ -5,7 +5,6 @@ const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass')(require('sass'));
 const bourbon = require('node-bourbon').includePaths;
 const concat = require('gulp-concat');
-const replace = require('gulp-replace');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const panini = require('panini');
@@ -61,7 +60,6 @@ function compileHTML() {
   console.log("\n\t" + logSymbols.info, "Compiling HTML..\n");
   panini.refresh();
   return src('src/pages/**/*.html')
-    .pipe(replace('{{PACKAGE_VERSION}}', packageJson.version))
     .pipe(panini({
       root: 'src/pages/',
       layouts: 'src/layouts/',
