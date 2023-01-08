@@ -1,6 +1,6 @@
 # Dock Lite - Alpine v3 Dashboard template
 
-Dock Lite is a bulma dashboard kit built with Bulma 0.9.x and AlpineJS v3.x. Dock Lite is a demo version of Dock, our full dashboard UI Kit. Discover the full version here: [Full product demo](https://dock.csssninja.io).
+Dock Lite is a bulma dashboard kit built with built with Astro v1.x, Bulma 0.9.x and AlpineJS v3.x. Dock Lite is a demo version of Dock, our full dashboard UI Kit. Discover the full version here: [Full product demo](https://dock.csssninja.io).
 
 ![Screenshot](https://media.cssninja.io/products/dock/product.png "Dock")
 
@@ -11,7 +11,8 @@ Dock is built with [Bulma](https://bulma.io) and [Alpine JS](https://github.com/
 
 ## 👍 Features
 
-* Gulp 4 and nodejs 16.x (minimum)
+* Astro v1.x
+* Node.js 16.x (minimum)
 * Bulma 0.9.x
 * ES6 support
 * Alpine v3.x
