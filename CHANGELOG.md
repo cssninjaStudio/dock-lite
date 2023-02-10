@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/cssninjaStudio/dock-lite/compare/v2.0.0...v2.1.0) (2023-02-10)
+
+
+### Features
+
+* upgrade to Astro v2 ([1ca1dd5](https://github.com/cssninjaStudio/dock-lite/commit/1ca1dd5eb56f481c0f07ca61e5466ff144e5e2ae))
+
 ## [2.0.0](https://github.com/cssninjaStudio/dock-lite/compare/v1.0.1...v2.0.0) (2023-01-08)
 
 
