@@ -2,6 +2,12 @@
 Main wrapper
 ========================================================================== */
 
+.container {
+  &.is-wide {
+    max-width: 1280px !important;
+  }
+}
+
 .dock-wrapper {
   position: relative;
   width: calc(100% - 280px);
@@ -95,3 +101,17 @@ Main wrapper
     }
   }
 }
+
+@media only screen and (orientation: portrait) {
+  .columns {
+    &.is-block-portrait {
+      display: block !important;
+
+      .column {
+        width: 100% !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
